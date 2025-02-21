@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Aeropuertos</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="aeropuertos-container">
+    <h2>Lista de Aeropuertos</h2>
+
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="assets/aeropuerto1.jpg" />
+        </ion-thumbnail>
+        <ion-label>
+          <h3>El Dorado</h3>
+          <p>Bogotá, Colombia</p>
+        </ion-label>
+        <ion-badge color="success">Activo</ion-badge>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="assets/aeropuerto2.jpg" />
+        </ion-thumbnail>
+        <ion-label>
+          <h3>JFK</h3>
+          <p>New York, USA</p>
+        </ion-label>
+        <ion-badge color="warning">Mantenimiento</ion-badge>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="assets/aeropuerto3.jpg" />
+        </ion-thumbnail>
+        <ion-label>
+          <h3>Heathrow</h3>
+          <p>Londres, Reino Unido</p>
+        </ion-label>
+        <ion-badge color="danger">Inactivo</ion-badge>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-tabs>
+        <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="dashboard">
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-label>Inicio</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="aeropuertos">
+            <ion-icon name="airplane-outline"></ion-icon>
+            <ion-label>Aeropuertos</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="perfil">
+            <ion-icon name="person-outline"></ion-icon>
+            <ion-label>Perfil</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
+

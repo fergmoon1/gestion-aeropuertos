@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="person-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="dashboard-container">
+    <h2>Bienvenido</h2>
+    
+    <div class="cards">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Usuarios</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>25 registrados</ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Vuelos Activos</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>5 en proceso</ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Reportes</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>3 pendientes</ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-tabs>
+        <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="dashboard">
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-label>Inicio</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="perfil">
+            <ion-icon name="person-outline"></ion-icon>
+            <ion-label>Perfil</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="configuracion">
+            <ion-icon name="settings-outline"></ion-icon>
+            <ion-label>Config</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
