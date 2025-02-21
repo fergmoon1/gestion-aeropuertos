@@ -1,20 +1,47 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { Component } from '@angular/core';
+import { 
+  IonHeader, 
+  IonToolbar, 
+  IonTitle, 
+  IonButtons, 
+  IonButton, 
+  IonIcon, 
+  IonContent, 
+  IonList, 
+  IonItem, 
+  IonThumbnail, 
+  IonLabel, 
+  IonBadge, 
+  IonFooter, 
+  IonTabs, 
+  IonTabBar, 
+  IonTabButton 
+} from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-aeropuertos',
   templateUrl: './aeropuertos.page.html',
   styleUrls: ['./aeropuertos.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [
+    IonHeader, 
+    IonToolbar, 
+    IonTitle, 
+    IonButtons, 
+    IonButton, 
+    IonIcon, 
+    IonContent, 
+    IonList, 
+    IonItem, 
+    IonThumbnail, 
+    IonLabel, 
+    IonBadge, 
+    IonFooter, 
+    IonTabs, 
+    IonTabBar, 
+    IonTabButton
+  ]
 })
-export class AeropuertosPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class AeropuertosPage {
+  // Aquí puedes agregar lógica adicional si es necesario
 }

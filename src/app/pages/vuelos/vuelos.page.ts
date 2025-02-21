@@ -1,20 +1,35 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { Component } from '@angular/core';
+import { 
+  IonButton, 
+  IonButtons, 
+  IonContent, 
+  IonHeader, 
+  IonToolbar, 
+  IonTitle, 
+  IonItem, 
+  IonLabel, 
+  IonInput, 
+  IonList, 
+  IonIcon 
+} from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-vuelos',
   templateUrl: './vuelos.page.html',
   styleUrls: ['./vuelos.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [
+    IonButton, 
+    IonButtons, 
+    IonContent, 
+    IonHeader, 
+    IonToolbar, 
+    IonTitle, 
+    IonItem, 
+    IonLabel, 
+    IonInput, 
+    IonList, 
+    IonIcon
+  ]
 })
-export class VuelosPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class VuelosPage {}

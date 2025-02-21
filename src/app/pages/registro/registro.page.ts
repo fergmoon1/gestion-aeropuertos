@@ -1,15 +1,36 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-import { IonicModule } from '@ionic/angular';
-
+import { 
+  IonButton, 
+  IonButtons, 
+  IonContent, 
+  IonHeader, 
+  IonToolbar, 
+  IonTitle, 
+  IonItem, 
+  IonLabel, 
+  IonInput, 
+  IonList, 
+  IonIcon 
+} from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-registro',
-  standalone: true,
-  imports: [CommonModule, RouterModule, IonicModule],
   templateUrl: './registro.page.html',
-  styleUrls: ['./registro.page.css']
+  styleUrls: ['./registro.page.scss'],
+  standalone: true,
+  imports: [
+    IonButton, 
+    IonButtons, 
+    IonContent, 
+    IonHeader, 
+    IonToolbar, 
+    IonTitle, 
+    IonItem, 
+    IonLabel, 
+    IonInput, 
+    IonList, 
+    IonIcon
+  ]
 })
 export class RegistroPage {}
 
