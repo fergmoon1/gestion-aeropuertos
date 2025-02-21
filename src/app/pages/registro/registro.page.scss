@@ -1,0 +1,58 @@
+.registro-container {
+    --background: linear-gradient(to bottom, #3b82f6, #1e3a8a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+  }
+  
+  .registro-header {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  ion-list {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  ion-item {
+    --border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  ion-icon {
+    color: #3b82f6;
+  }
+  
+  .register-button {
+    margin-top: 20px;
+    background: #3b82f6;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .login-text {
+    margin-top: 10px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .login-text a {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

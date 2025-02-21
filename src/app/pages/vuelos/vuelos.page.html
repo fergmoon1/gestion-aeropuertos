@@ -1,13 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>vuelos</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="vuelos-container">
+  <div class="vuelos-header">
+    <h2>Vuelos Disponibles</h2>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">vuelos</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list>
+    <ion-card *ngFor="let vuelo of vuelos">
+      <ion-card-header>
+        <ion-card-title>{{ vuelo.origen }} → {{ vuelo.destino }}</ion-card-title>
+        <ion-card-subtitle>{{ vuelo.aerolinea }}</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p><strong>Hora:</strong> {{ vuelo.hora }}</p>
+        <p [ngClass]="getEstadoClass(vuelo.estado)"><strong>Estado:</strong> {{ vuelo.estado }}</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
 </ion-content>
+
