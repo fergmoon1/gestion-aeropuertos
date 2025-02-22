@@ -1,20 +1,12 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-import { IonicModule } from '@ionic/angular'; 
-import { Component } from '@angular/core';
 import { 
-  IonButton, 
-  IonButtons, 
   IonContent, 
-  IonHeader, 
-  IonToolbar, 
-  IonTitle, 
-  IonItem, 
-  IonLabel, 
-  IonInput, 
+  IonAvatar, 
   IonList, 
-  IonIcon 
+  IonItem, 
+  IonIcon, 
+  IonLabel, 
+  IonButton 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -23,17 +15,13 @@ import {
   styleUrls: ['./perfil.page.scss'],
   standalone: true,
   imports: [
-    IonButton, 
-    IonButtons, 
     IonContent, 
-    IonHeader, 
-    IonToolbar, 
-    IonTitle, 
-    IonItem, 
-    IonLabel, 
-    IonInput, 
+    IonAvatar, 
     IonList, 
-    IonIcon
+    IonItem, 
+    IonIcon, 
+    IonLabel, 
+    IonButton
   ]
 })
 export class PerfilPage {}

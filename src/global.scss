@@ -35,3 +35,23 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+/* Estilos globales personalizados */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Fondo claro por defecto */
+}
+
+/* Estilos para ion-app */
+ion-app {
+  display: block;
+  height: 100vh;
+  background-color: #ffffff; /* Fondo blanco para la aplicación */
+}
+
+/* Estilos para ion-router-outlet */
+ion-router-outlet {
+  display: block;
+  height: 100%;
+}

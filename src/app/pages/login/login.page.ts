@@ -1,16 +1,10 @@
 import { Component } from '@angular/core';
 import { 
-  IonButton, 
-  IonButtons, 
   IonContent, 
-  IonHeader, 
-  IonToolbar, 
-  IonTitle, 
   IonItem, 
-  IonLabel, 
+  IonIcon, 
   IonInput, 
-  IonList, 
-  IonIcon 
+  IonButton 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -19,17 +13,11 @@ import {
   styleUrls: ['./login.page.scss'],
   standalone: true,
   imports: [
-    IonButton, 
-    IonButtons, 
     IonContent, 
-    IonHeader, 
-    IonToolbar, 
-    IonTitle, 
     IonItem, 
-    IonLabel, 
+    IonIcon, 
     IonInput, 
-    IonList, 
-    IonIcon
+    IonButton
   ]
 })
 export class LoginPage {}

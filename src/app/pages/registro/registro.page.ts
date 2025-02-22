@@ -1,16 +1,11 @@
 import { Component } from '@angular/core';
 import { 
-  IonButton, 
-  IonButtons, 
   IonContent, 
-  IonHeader, 
-  IonToolbar, 
-  IonTitle, 
-  IonItem, 
-  IonLabel, 
-  IonInput, 
   IonList, 
-  IonIcon 
+  IonItem, 
+  IonIcon, 
+  IonInput, 
+  IonButton 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -19,17 +14,12 @@ import {
   styleUrls: ['./registro.page.scss'],
   standalone: true,
   imports: [
-    IonButton, 
-    IonButtons, 
     IonContent, 
-    IonHeader, 
-    IonToolbar, 
-    IonTitle, 
-    IonItem, 
-    IonLabel, 
-    IonInput, 
     IonList, 
-    IonIcon
+    IonItem, 
+    IonIcon, 
+    IonInput, 
+    IonButton
   ]
 })
 export class RegistroPage {}

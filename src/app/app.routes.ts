@@ -2,6 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+    path: '', // Ruta por defecto (raíz)
+    redirectTo: 'dashboard', // Redirige a 'dashboard'
+    pathMatch: 'full' // Asegura que la ruta coincida completamente
+  },
+  {
     path: 'login',
     loadComponent: () => import('./pages/login/login.page').then(m => m.LoginPage)
   },

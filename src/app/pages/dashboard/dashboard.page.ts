@@ -7,15 +7,15 @@ import {
   IonButton, 
   IonIcon, 
   IonContent, 
-  IonList, 
-  IonItem, 
-  IonLabel, 
-  IonInput, 
-  IonBadge, 
   IonFooter, 
   IonTabs, 
   IonTabBar, 
-  IonTabButton 
+  IonTabButton, 
+  IonCard, 
+  IonCardHeader, 
+  IonCardTitle, 
+  IonCardContent, 
+  IonLabel 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -31,17 +31,15 @@ import {
     IonButton, 
     IonIcon, 
     IonContent, 
-    IonList, 
-    IonItem, 
-    IonLabel, 
-    IonInput, 
-    IonBadge, 
     IonFooter, 
     IonTabs, 
     IonTabBar, 
-    IonTabButton
+    IonTabButton, 
+    IonCard, 
+    IonCardHeader, 
+    IonCardTitle, 
+    IonCardContent, 
+    IonLabel
   ]
 })
-export class DashboardPage {
-  // Aquí puedes agregar lógica adicional si es necesario
-}
+export class DashboardPage {}

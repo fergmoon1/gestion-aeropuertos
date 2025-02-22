@@ -1,16 +1,19 @@
 import { Component } from '@angular/core';
 import { 
-  IonButton, 
-  IonButtons, 
-  IonContent, 
   IonHeader, 
   IonToolbar, 
   IonTitle, 
+  IonButtons, 
+  IonButton, 
+  IonIcon, 
+  IonContent, 
+  IonList, 
   IonItem, 
   IonLabel, 
-  IonInput, 
-  IonList, 
-  IonIcon 
+  IonFooter, 
+  IonTabs, 
+  IonTabBar, 
+  IonTabButton 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -19,17 +22,20 @@ import {
   styleUrls: ['./escalas.page.scss'],
   standalone: true,
   imports: [
-    IonButton, 
-    IonButtons, 
-    IonContent, 
     IonHeader, 
     IonToolbar, 
     IonTitle, 
+    IonButtons, 
+    IonButton, 
+    IonIcon, 
+    IonContent, 
+    IonList, 
     IonItem, 
     IonLabel, 
-    IonInput, 
-    IonList, 
-    IonIcon
+    IonFooter, 
+    IonTabs, 
+    IonTabBar, 
+    IonTabButton
   ]
 })
 export class EscalasPage {}
